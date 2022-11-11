@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "weight-tracker"
+version = "0.1.0"
+description = ""
+authors = ["yamen <yamen225@gmail.com>"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Django = "^4.1.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
